@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FaceProcess</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login_tar">→</string>
+    <string name="login_text1">登 录</string>
+    <string name="resign">没有账号？点击注册</string>
+</resources>

@@ -3,6 +3,9 @@ package cn.xuziao.faceprocess;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
+
+import cn.xuziao.faceprocess.dao.DatabaseHelper;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,6 +1,7 @@
 package cn.xuziao.faceprocess;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,14 +22,8 @@ public class LoginActivity extends Activity {
 
         TextView textView = findViewById(R.id.login_resign);
         textView.setOnClickListener(v -> {
-            new Thread(() -> {
-                try {
-                    new TestConnection().testConnection();
-                } catch (ClassNotFoundException | SQLException e) {
-                    e.printStackTrace();
-                }
-            }).start();
-            Toast.makeText(LoginActivity.this, "注册中...", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(LoginActivity.this, resignActivity.class);
+            startActivity(intent);
         });
 
     }

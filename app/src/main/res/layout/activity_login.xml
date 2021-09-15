@@ -18,11 +18,11 @@
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login_text1"
             android:layout_centerHorizontal="true"
-            android:textSize="50sp"
-            android:textColor="@color/black"
             android:layout_marginTop="50dp"
+            android:text="@string/login_text1"
+            android:textColor="@color/black"
+            android:textSize="50sp"
 
             />
 
@@ -46,23 +46,23 @@
             android:textColorHint="#D8D8D8"
 
             />
+
         <EditText
             android:id="@+id/edit_password"
             android:layout_width="match_parent"
             android:layout_height="55dp"
+            android:layout_below="@+id/edit_username"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="45dp"
             android:autofillHints="password"
             android:background="@drawable/edt_sty1"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="45dp"
-            android:layout_marginEnd="45dp"
             android:paddingStart="20sp"
-            android:textSize="20sp"
-            android:layout_below="@+id/edit_username"
-            tools:ignore="LabelFor,RtlSymmetry"
             android:textColorHint="#D8D8D8"
-            />
+            android:textSize="20sp"
+            tools:ignore="LabelFor,RtlSymmetry" />
         <Button
             android:layout_width="85dp"
             android:layout_height="85dp"

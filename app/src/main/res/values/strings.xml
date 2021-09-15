@@ -5,4 +5,12 @@
     <string name="login_tar">→</string>
     <string name="login_text1">登 录</string>
     <string name="resign">没有账号？点击注册</string>
+    <string name="resign_username">用户名：</string>
+    <string name="resign_word">注册</string>
+    <string name="username_word">用户名：</string>
+    <string name="password_word">密码：</string>
+    <string name="repassword_word">重复密码：</string>
+    <string name="email_word">电子邮箱：</string>
+    <string name="code_word">验证码：</string>
+    <string name="send_code_word">发送验证码</string>
 </resources>

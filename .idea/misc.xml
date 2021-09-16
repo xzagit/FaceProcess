@@ -6,9 +6,12 @@
         <entry key="..\:/Android/FaceProcess/app/src/main/res/drawable/edt_sty1.xml" value="0.26666666666666666" />
         <entry key="..\:/Android/FaceProcess/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26979166666666665" />
         <entry key="..\:/Android/FaceProcess/app/src/main/res/drawable/login_button.xml" value="0.22291666666666668" />
-        <entry key="..\:/Android/FaceProcess/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android/FaceProcess/app/src/main/res/drawable/resign_btn.xml" value="0.29074074074074074" />
+        <entry key="..\:/Android/FaceProcess/app/src/main/res/drawable/resign_code.xml" value="0.37407407407407406" />
+        <entry key="..\:/Android/FaceProcess/app/src/main/res/drawable/resign_input.xml" value="0.29074074074074074" />
+        <entry key="..\:/Android/FaceProcess/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Android/FaceProcess/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Android/FaceProcess/app/src/main/res/layout/activity_resign.xml" value="0.25" />
+        <entry key="..\:/Android/FaceProcess/app/src/main/res/layout/activity_resign.xml" value="0.2361111111111111" />
         <entry key="..\:/Android/FaceProcess/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26979166666666665" />
       </map>
     </option>
@@ -18,5 +21,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2361111111111111" />
+      </ProjectState>
+    </option>
   </component>
 </project>

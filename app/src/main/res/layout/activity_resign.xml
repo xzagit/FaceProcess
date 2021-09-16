@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".resignActivity">
+    android:background="@color/white"
+    tools:context=".resignActivity"
+    >
 
   <TextView
       android:id="@+id/resign_word"
@@ -15,7 +16,9 @@
       android:layout_centerHorizontal="true"
       android:textSize="40sp"
       android:layout_marginTop="50dp"
-    />
+      android:textColor="@color/black"
+
+      />
 
   <TextView
       android:id="@+id/resign_username"
@@ -26,6 +29,10 @@
       android:textSize="25sp"
       android:layout_marginTop="30dp"
       android:layout_below="@id/resign_word"
+
+      android:textColor="@color/black"
+
+
       />
 
 
@@ -36,10 +43,12 @@
       android:layout_toEndOf="@+id/resign_username"
       android:layout_below="@+id/resign_word"
       android:layout_marginTop="30dp"
-      android:autofillHints="用户名"
+      android:autofillHints="username"
       android:layout_marginEnd="20dp"
       android:inputType="text"
       tools:ignore="LabelFor"
+      android:textColor="@color/black"
+      android:background="@drawable/resign_input"
       />
 
   <TextView
@@ -51,6 +60,7 @@
       android:textSize="25sp"
       android:layout_marginTop="50dp"
       android:layout_below="@+id/resign_username"
+      android:textColor="@color/black"
       />
 
 
@@ -60,11 +70,13 @@
       android:layout_height="wrap_content"
       android:layout_toEndOf="@+id/resign_password"
       android:layout_below="@+id/username_edittext_resign"
-      android:layout_marginTop="30dp"
+      android:layout_marginTop="25dp"
       android:autofillHints="password"
       android:inputType="textPassword"
       android:layout_marginEnd="20dp"
       tools:ignore="LabelFor"
+      android:textColor="@color/black"
+      android:background="@drawable/resign_input"
       />
 
   <TextView
@@ -76,6 +88,7 @@
       android:textSize="25sp"
       android:layout_marginTop="40dp"
       android:layout_below="@+id/resign_password"
+      android:textColor="@color/black"
       />
 
 
@@ -85,11 +98,13 @@
       android:layout_height="wrap_content"
       android:layout_toEndOf="@+id/resign_repassword"
       android:layout_below="@+id/password_edittext_resign"
-      android:layout_marginTop="30dp"
+      android:layout_marginTop="25dp"
       android:autofillHints="password"
       android:inputType="textPassword"
       android:layout_marginEnd="20dp"
       tools:ignore="LabelFor"
+      android:textColor="@color/black"
+      android:background="@drawable/resign_input"
       />
 
   <TextView
@@ -101,6 +116,7 @@
       android:textSize="25sp"
       android:layout_marginTop="40dp"
       android:layout_below="@+id/resign_repassword"
+      android:textColor="@color/black"
       />
 
 
@@ -110,11 +126,13 @@
       android:layout_height="wrap_content"
       android:layout_toEndOf="@+id/resign_email"
       android:layout_below="@+id/repassword_edittext_resign"
-      android:layout_marginTop="30dp"
+      android:layout_marginTop="25dp"
       android:autofillHints="emailAddress"
       android:inputType="textEmailAddress"
       android:layout_marginEnd="20dp"
+      android:textColor="@color/black"
       tools:ignore="LabelFor"
+      android:background="@drawable/resign_input"
       />
   <TextView
       android:id="@+id/resign_code"
@@ -125,6 +143,7 @@
       android:textSize="25sp"
       android:layout_marginTop="40dp"
       android:layout_below="@+id/resign_email"
+      android:textColor="@color/black"
       />
 
 
@@ -134,21 +153,37 @@
       android:layout_height="wrap_content"
       android:layout_toEndOf="@+id/resign_code"
       android:layout_below="@+id/email_edittext_resign"
-      android:layout_marginTop="30dp"
+      android:layout_marginTop="25dp"
       android:autofillHints="password"
       android:inputType="textEmailAddress"
       android:layout_marginEnd="20dp"
+      android:textColor="@color/black"
       tools:ignore="LabelFor"
+
       />
   <Button
       android:id="@+id/get_code_resign"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+      android:layout_width="130dp"
+      android:layout_height="50dp"
       android:layout_below="@+id/resign_email"
+      android:background="@drawable/resign_code"
       android:layout_toEndOf="@+id/code_edittext_resign"
       android:layout_marginTop="30dp"
       android:layout_marginStart="10dp"
       android:text="@string/send_code_word"
+      />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:id="@+id/resign_resign"
+      android:layout_below="@+id/code_edittext_resign"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="90dp"
+      android:layout_marginStart="250dp"
+      android:text="@string/resign_word"
+      android:textSize="25sp"
+      android:background="@drawable/resign_btn"
       />
 
 

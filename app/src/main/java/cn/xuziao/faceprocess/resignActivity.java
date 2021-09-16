@@ -1,9 +1,9 @@
 package cn.xuziao.faceprocess;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class resignActivity extends AppCompatActivity {
+public class resignActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -64,6 +64,7 @@
             android:textSize="20sp"
             tools:ignore="LabelFor,RtlSymmetry" />
         <Button
+            android:id="@+id/button_login"
             android:layout_width="85dp"
             android:layout_height="85dp"
             android:layout_below="@+id/edit_password"

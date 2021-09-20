@@ -26,7 +26,7 @@
       android:layout_width="140dp"
       android:layout_height="wrap_content"
       android:text="@string/username_word"
-      android:textSize="25sp"
+      android:textSize="18sp"
       android:layout_marginTop="30dp"
       android:layout_below="@id/resign_word"
 
@@ -38,155 +38,147 @@
 
   <EditText
       android:id="@+id/username_edittext_resign"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_toEndOf="@+id/resign_username"
+      android:layout_width="277dp"
+      android:layout_height="34dp"
       android:layout_below="@+id/resign_word"
-      android:layout_marginTop="30dp"
-      android:autofillHints="username"
+      android:layout_marginStart="-43dp"
+      android:layout_marginTop="29dp"
       android:layout_marginEnd="20dp"
-      android:inputType="text"
-      tools:ignore="LabelFor"
-      android:textColor="@color/black"
+      android:layout_toEndOf="@+id/resign_username"
+      android:autofillHints="username"
       android:background="@drawable/resign_input"
-      />
+      android:inputType="text"
+      android:textColor="@color/black"
+      tools:ignore="LabelFor" />
 
   <TextView
       android:id="@+id/resign_password"
-      android:layout_marginStart="20sp"
       android:layout_width="140dp"
       android:layout_height="wrap_content"
-      android:text="@string/password_word"
-      android:textSize="25sp"
-      android:layout_marginTop="50dp"
       android:layout_below="@+id/resign_username"
+      android:layout_marginStart="20sp"
+      android:layout_marginTop="28dp"
+      android:text="@string/password_word"
       android:textColor="@color/black"
-      />
+      android:textSize="18sp" />
 
 
   <EditText
       android:id="@+id/password_edittext_resign"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_toEndOf="@+id/resign_password"
+      android:layout_width="278dp"
+      android:layout_height="36dp"
       android:layout_below="@+id/username_edittext_resign"
-      android:layout_marginTop="25dp"
-      android:autofillHints="password"
-      android:inputType="textPassword"
+      android:layout_marginStart="-44dp"
+      android:layout_marginTop="14dp"
       android:layout_marginEnd="20dp"
-      tools:ignore="LabelFor"
-      android:textColor="@color/black"
+      android:layout_toEndOf="@+id/resign_password"
+      android:autofillHints="password"
       android:background="@drawable/resign_input"
-      />
+      android:inputType="textPassword"
+      android:textColor="@color/black"
+      tools:ignore="LabelFor" />
 
   <TextView
       android:id="@+id/resign_repassword"
-      android:layout_marginStart="20sp"
       android:layout_width="140dp"
       android:layout_height="wrap_content"
-      android:text="@string/repassword_word"
-      android:textSize="25sp"
-      android:layout_marginTop="40dp"
       android:layout_below="@+id/resign_password"
+      android:layout_marginStart="20sp"
+      android:layout_marginTop="26dp"
+      android:text="@string/repassword_word"
       android:textColor="@color/black"
-      />
-
+      android:textSize="18sp" />
 
   <EditText
       android:id="@+id/repassword_edittext_resign"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_toEndOf="@+id/resign_repassword"
+      android:layout_width="271dp"
+      android:layout_height="35dp"
       android:layout_below="@+id/password_edittext_resign"
-      android:layout_marginTop="25dp"
-      android:autofillHints="password"
-      android:inputType="textPassword"
+      android:layout_marginStart="-44dp"
+      android:layout_marginTop="17dp"
       android:layout_marginEnd="20dp"
-      tools:ignore="LabelFor"
-      android:textColor="@color/black"
+      android:layout_toEndOf="@+id/resign_repassword"
+      android:autofillHints="password"
       android:background="@drawable/resign_input"
-      />
+      android:inputType="textPassword"
+      android:textColor="@color/black"
+      tools:ignore="LabelFor" />
 
   <TextView
       android:id="@+id/resign_email"
-      android:layout_marginStart="20sp"
       android:layout_width="140dp"
       android:layout_height="wrap_content"
-      android:text="@string/email_word"
-      android:textSize="25sp"
-      android:layout_marginTop="40dp"
       android:layout_below="@+id/resign_repassword"
+      android:layout_marginStart="20sp"
+      android:layout_marginTop="33dp"
+      android:text="@string/email_word"
       android:textColor="@color/black"
-      />
+      android:textSize="18sp" />
 
 
   <EditText
       android:id="@+id/email_edittext_resign"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_toEndOf="@+id/resign_email"
+      android:layout_width="283dp"
+      android:layout_height="33dp"
       android:layout_below="@+id/repassword_edittext_resign"
-      android:layout_marginTop="25dp"
-      android:autofillHints="emailAddress"
-      android:inputType="textEmailAddress"
+      android:layout_marginStart="-44dp"
+      android:layout_marginTop="22dp"
       android:layout_marginEnd="20dp"
-      android:textColor="@color/black"
-      tools:ignore="LabelFor"
+      android:layout_toEndOf="@+id/resign_email"
+      android:autofillHints="emailAddress"
       android:background="@drawable/resign_input"
-      />
+      android:inputType="textEmailAddress"
+      android:textColor="@color/black"
+      tools:ignore="LabelFor" />
+
   <TextView
       android:id="@+id/resign_code"
-      android:layout_marginStart="20sp"
       android:layout_width="140dp"
       android:layout_height="wrap_content"
-      android:text="@string/code_word"
-      android:textSize="25sp"
-      android:layout_marginTop="40dp"
       android:layout_below="@+id/resign_email"
+      android:layout_marginStart="20sp"
+      android:layout_marginTop="30dp"
+      android:text="@string/code_word"
       android:textColor="@color/black"
-      />
-
+      android:textSize="18sp" />
 
   <EditText
       android:id="@+id/code_edittext_resign"
-      android:layout_width="100dp"
-      android:layout_height="wrap_content"
-      android:layout_toEndOf="@+id/resign_code"
+      android:layout_width="136dp"
+      android:layout_height="37dp"
       android:layout_below="@+id/email_edittext_resign"
-      android:layout_marginTop="25dp"
+      android:layout_marginStart="-45dp"
+      android:layout_marginTop="19dp"
+      android:layout_marginEnd="20dp"
+      android:layout_toEndOf="@+id/resign_code"
       android:autofillHints="password"
       android:inputType="textEmailAddress"
-      android:layout_marginEnd="20dp"
       android:textColor="@color/black"
-      tools:ignore="LabelFor"
 
-      />
+      tools:ignore="LabelFor" />
+
   <Button
       android:id="@+id/get_code_resign"
-      android:layout_width="130dp"
-      android:layout_height="50dp"
+      android:layout_width="158dp"
+      android:layout_height="40dp"
       android:layout_below="@+id/resign_email"
-      android:background="@drawable/resign_code"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="17dp"
       android:layout_toEndOf="@+id/code_edittext_resign"
-      android:layout_marginTop="30dp"
-      android:layout_marginStart="10dp"
-      android:text="@string/send_code_word"
-      />
+      android:background="@drawable/resign_code"
+      android:text="@string/send_code_word" />
 
   <Button
-      android:layout_width="match_parent"
-      android:layout_height="70dp"
       android:id="@+id/resign_resign"
+      android:layout_width="159dp"
+      android:layout_height="59dp"
       android:layout_below="@+id/code_edittext_resign"
       android:layout_centerHorizontal="true"
-      android:layout_marginTop="90dp"
       android:layout_marginStart="250dp"
-      android:text="@string/resign_word"
-      android:textSize="25sp"
+      android:layout_marginTop="82dp"
       android:background="@drawable/resign_btn"
-      />
-
-
+      android:text="@string/resign_word"
+      android:textSize="18sp" />
 
 
 </RelativeLayout>

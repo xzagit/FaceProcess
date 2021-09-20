@@ -13,7 +13,8 @@ public enum ReturnInfo {
     PASSWORD_NOT_MATCH(2, "密码错误"),
     FACE_INFO_NOT_FOUND(3, "找不到面部信息"),
     FACE_CAN_NOT_IDENTIFY(4 ,"检测不到面部信息"),
-    OTHERS(5, "出现未知错误，请联系管理员解决");
+    USER_IS_EXISTED(5 ,"该用户名已经存在"),
+    OTHERS(6, "出现未知错误，请联系管理员解决");
 
 
     private final int code;
